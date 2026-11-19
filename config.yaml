@@ -1,0 +1,21 @@
+# All dimensions in um unless noted otherwise. SKY130A / TT at 25 C.
+seed: 4602026
+technology: sky130
+vdd_v: 1.8
+temperature_c: 25
+load_f: 1.0e-14
+input_slew_s: 1.0e-10
+tran_step_s: 2.0e-12
+sim_time_s: 2.5e-9
+measure_start_s: 5.0e-10
+measure_end_s: 2.5e-9
+width_min_um: 0.15
+width_max_um: 2.0
+width_grid_um: 0.05
+channel_length_um: 0.15
+ngspice: ngspice
+# Set SKY130_MODEL_LIB or pass --model-lib. Expected ngspice-ready sky130.lib.spice.
+model_lib: ""
+corner: tt
+pilot_samples: 20
+full_samples: 1400
